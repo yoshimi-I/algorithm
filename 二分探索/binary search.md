@@ -9,11 +9,12 @@ def search(data,num):
     while left <= right:
         mid = (left + right)//2
         if data[mid] == num:
-            return mid
+            return "yes"
         elif data[mid] < num:
             left = mid + 1
         else:
             right = mid - 1
+    return "no"
 ```
 - right  = len(date) -1 となる理由
     - 配列に番号を振ればすぐにわかる。配列は0から数えられるのに対し、配列の数は1から数えられるためその調整を行なっている。
