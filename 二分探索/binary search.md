@@ -23,4 +23,4 @@ print(len(list_num))
 >>> 5
 ```
 - left = mid + 1, right = mid - 1 の "-1"
-    - midがそもそもif data[mid] == num:で違うとがわかっているため、midを除いたところを端にすればいいことになる。
+    - midがそもそもif data[mid] == num:　で違うとがわかっているため、midを除いたところを端にすればいいことになる。
