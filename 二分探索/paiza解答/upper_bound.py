@@ -5,7 +5,7 @@ q = int(input())
 test = list(int(input()) for _ in range(q))
 for i in test:
     left = 0
-    right = n-1
+    right = n
     
     while left < right:
         mid = (left + right)//2
